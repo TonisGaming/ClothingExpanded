@@ -1,0 +1,87 @@
+{
+  "ModClothingComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_InsulatedToolbelt",
+    "DescriptionLocalizatonId": "GAMEPLAY_InsulatedToolbeltD",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 1.2,
+    "DaysToDecay": 1500,
+    "MaxHP": 125.0,
+    "InitialCondition": "Perfect",
+    "InventoryCategory": "Auto",
+    "PickUpAudio": "Play_SndInvClothStiff",
+    "PutBackAudio": "Play_SndInvClothStiff",
+    "StowAudio": "Play_SndInvClothLeatherStow",
+    "WornOutAudio": "Play_ClothWornOut",
+    "InspectOnPickup": true,
+    "InspectDistance": 1.0,
+    "InspectAngles": [
+      180.0,
+      0.0,
+      90.0
+    ],
+    "InspectOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "NormalModel": "",
+    "InspectModel": "",
+    "Region": "Legs",
+    "MinLayer": "Top",
+    "MaxLayer": "Top2",
+    "MovementSound": "SoftCloth",
+    "Footwear": "None",
+    "DaysToDecayWornOutside": 150.0,
+    "DaysToDecayWornInside": 600.0,
+    "Warmth": 2.5,
+    "WarmthWhenWet": 0.0,
+    "Windproof": 2.0,
+    "Waterproofness": 50.0,
+    "Toughness": 5.0,
+    "SprintBarReduction": 5.0,
+    "DecreaseAttackChance": 0,
+    "IncreaseFleeChance": 0,
+    "HoursToDryNearFire": 3.0,
+    "HoursToDryWithoutFire": 12.0,
+    "HoursToFreeze": 4.0,
+    "MainTexture": "CLTH_InsulatedToolbelt_HMM_",
+    "BlendTexture": "",
+    "DrawLayer": 16,
+    "ImplementationType": ""
+  },
+  "ModRepairableBehaviour": {
+    "Audio": "Play_RepairingCloth",
+    "Minutes": 45,
+    "Condition": 30,
+    "RequiredTools": [
+      "GEAR_SewingKit",
+      "GEAR_HookAndLine"
+    ],
+    "MaterialNames": [
+      "GEAR_Cloth",
+      "GEAR_LeatherDried"
+    ],
+    "MaterialCounts": [
+      1,
+      1
+    ]
+  },
+  "ModHarvestableBehaviour": {
+    "Audio": "Play_HarvestingCloth",
+    "Minutes": 45,
+    "YieldCounts": [
+      1,
+      2
+    ],
+    "YieldNames": [
+      "GEAR_Cloth",
+      "GEAR_LeatherDried"
+    ],
+    "RequiredToolNames": []
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "Name": "ClothingExpanded",
+    "Author": "TonisGaming",
+    "Version": "",
+    "Requires": [
+        "AHandyToolbox"
+    ],
+    "RequiresDLC": true
+}

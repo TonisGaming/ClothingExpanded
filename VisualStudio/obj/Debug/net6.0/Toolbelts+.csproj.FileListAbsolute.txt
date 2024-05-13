@@ -1,0 +1,16 @@
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\obj\Debug\net6.0\Toolbelts+.csproj.AssemblyReference.cache
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\obj\Debug\net6.0\Toolbelts+.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\obj\Debug\net6.0\Toolbelts+.csproj.CoreCompileInputs.cache
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\bin\Debug\net6.0\Toolbelts+.deps.json
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\bin\Debug\net6.0\Toolbelts+.dll
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\obj\Debug\net6.0\Toolbelts+.dll
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\obj\Debug\net6.0\refint\Toolbelts+.dll
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudio\obj\Debug\net6.0\ref\Toolbelts+.dll
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\bin\Debug\net6.0\Toolbelts+.deps.json
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\bin\Debug\net6.0\Toolbelts+.dll
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\Toolbelts+.csproj.AssemblyReference.cache
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\Toolbelts+.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\Toolbelts+.csproj.CoreCompileInputs.cache
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\Toolbelts+.dll
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\refint\Toolbelts+.dll
+C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\ref\Toolbelts+.dll

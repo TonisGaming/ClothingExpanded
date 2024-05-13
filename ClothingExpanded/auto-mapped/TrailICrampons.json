@@ -1,0 +1,57 @@
+{
+  "ModClothingComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_TrailICrampons",
+    "DescriptionLocalizatonId": "GAMEPLAY_TrailICramponsD",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 1.75,
+    "DaysToDecay": 1500,
+    "MaxHP": 133.0,
+    "InitialCondition": "Perfect",
+    "InventoryCategory": "Auto",
+    "PickUpAudio": "Play_SndInvLeatherHideBPickup",
+    "PutBackAudio": "Play_SndInvLeatherHideBPutBack",
+    "StowAudio": "Play_SndInvClothLeatherStow",
+    "WornOutAudio": "Play_LeatherWornOut",
+    "InspectOnPickup": true,
+    "InspectDistance": 1.0,
+    "InspectAngles": [
+      30.0,
+      180.0,
+      0.0
+    ],
+    "InspectOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "NormalModel": "",
+    "InspectModel": "",
+    "Region": "Feet",
+    "MinLayer": "Top",
+    "MaxLayer": "Top",
+    "MovementSound": "None",
+    "Footwear": "Boots",
+    "DaysToDecayWornOutside": 150.0,
+    "DaysToDecayWornInside": 1500.0,
+    "Warmth": 1.0,
+    "WarmthWhenWet": 0.0,
+    "Windproof": 1.0,
+    "Waterproofness": 30.0,
+    "Toughness": 8.0,
+    "SprintBarReduction": 8.0,
+    "DecreaseAttackChance": 0,
+    "IncreaseFleeChance": 0,
+    "HoursToDryNearFire": 4.0,
+    "HoursToDryWithoutFire": 12.0,
+    "HoursToFreeze": 6.0,
+    "MainTexture": "CLTH_TrailICrampons_HMM_",
+    "BlendTexture": "",
+    "DrawLayer": 13,
+    "ImplementationType": ""
+  }
+}

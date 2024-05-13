@@ -1,0 +1,87 @@
+{
+  "ModClothingComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_WorkToolbelt",
+    "DescriptionLocalizatonId": "GAMEPLAY_WorkToolbeltD",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 1.7,
+    "DaysToDecay": 2000,
+    "MaxHP": 200.0,
+    "InitialCondition": "Perfect",
+    "InventoryCategory": "Auto",
+    "PickUpAudio": "Play_SndInvClothStiff",
+    "PutBackAudio": "Play_SndInvClothStiff",
+    "StowAudio": "Play_SndInvClothLeatherStow",
+    "WornOutAudio": "Play_ClothWornOut",
+    "InspectOnPickup": true,
+    "InspectDistance": 1.0,
+    "InspectAngles": [
+      180.0,
+      90.0,
+      0.0
+    ],
+    "InspectOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "NormalModel": "",
+    "InspectModel": "",
+    "Region": "Legs",
+    "MinLayer": "Top",
+    "MaxLayer": "Top2",
+    "MovementSound": "SoftCloth",
+    "Footwear": "None",
+    "DaysToDecayWornOutside": 200.0,
+    "DaysToDecayWornInside": 400.0,
+    "Warmth": 1.5,
+    "WarmthWhenWet": 0.0,
+    "Windproof": 1.0,
+    "Waterproofness": 10.0,
+    "Toughness": 8.0,
+    "SprintBarReduction": 3.0,
+    "DecreaseAttackChance": 0,
+    "IncreaseFleeChance": 0,
+    "HoursToDryNearFire": 3.0,
+    "HoursToDryWithoutFire": 12.0,
+    "HoursToFreeze": 4.0,
+    "MainTexture": "CLTH_WorkToolbelt_HMM_",
+    "BlendTexture": "",
+    "DrawLayer": 16,
+    "ImplementationType": ""
+  },
+  "ModRepairableBehaviour": {
+    "Audio": "Play_RepairingLeatherClothing",
+    "Minutes": 45,
+    "Condition": 30,
+    "RequiredTools": [
+      "GEAR_SewingKit",
+      "GEAR_HookAndLine"
+    ],
+    "MaterialNames": [
+      "GEAR_Cloth",
+      "GEAR_LeatherDried"
+    ],
+    "MaterialCounts": [
+      1,
+      1
+    ]
+  },
+  "ModHarvestableBehaviour": {
+    "Audio": "",
+    "Minutes": 45,
+    "YieldCounts": [
+      1,
+      2
+    ],
+    "YieldNames": [
+      "GEAR_Cloth",
+      "GEAR_LeatherDried"
+    ],
+    "RequiredToolNames": []
+  }
+}

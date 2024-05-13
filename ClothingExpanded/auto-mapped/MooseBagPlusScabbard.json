@@ -1,0 +1,83 @@
+{
+  "ModClothingComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_MooseBagPlusScabbard",
+    "DescriptionLocalizatonId": "GAMEPLAY_MooseBagPlusScabbardD",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 0.5,
+    "DaysToDecay": 10000,
+    "MaxHP": 500.0,
+    "InitialCondition": "Perfect",
+    "InventoryCategory": "Auto",
+    "PickUpAudio": "Play_SndInvClothStiff",
+    "PutBackAudio": "Play_SndInvClothStiff",
+    "StowAudio": "Play_SndInvClothLeatherStow",
+    "WornOutAudio": "Play_ClothWornOut",
+    "InspectOnPickup": true,
+    "InspectDistance": 1.0,
+    "InspectAngles": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectOffset": [
+      0.0,
+      -0.1,
+      0.0
+    ],
+    "InspectScale": [
+      0.6,
+      0.6,
+      0.6
+    ],
+    "NormalModel": "",
+    "InspectModel": "",
+    "Region": "Accessory",
+    "MinLayer": "Base",
+    "MaxLayer": "Mid",
+    "MovementSound": "LightCotton",
+    "Footwear": "None",
+    "DaysToDecayWornOutside": 3500.0,
+    "DaysToDecayWornInside": 10000.0,
+    "Warmth": 0.0,
+    "WarmthWhenWet": 0.0,
+    "Windproof": 0.0,
+    "Waterproofness": 0.0,
+    "Toughness": 0.0,
+    "SprintBarReduction": 0.0,
+    "DecreaseAttackChance": 0,
+    "IncreaseFleeChance": 0,
+    "HoursToDryNearFire": 3.0,
+    "HoursToDryWithoutFire": 12.0,
+    "HoursToFreeze": 4.0,
+    "MainTexture": "",
+    "BlendTexture": "",
+    "DrawLayer": 40,
+    "ImplementationType": ""
+  },
+  "ModRepairableBehaviour": {
+    "Audio": "Play_RepairingCloth",
+    "Minutes": 40,
+    "Condition": 75,
+    "RequiredTools": [
+      "GEAR_SewingKit",
+      "GEAR_HookAndLine"
+    ],
+    "MaterialNames": [
+      "GEAR_LeatherDried"
+    ],
+    "MaterialCounts": [
+      2
+    ]
+  },
+  "ModHarvestableBehaviour": {
+    "Audio": "Play_HarvestingCloth",
+    "Minutes": 25,
+    "YieldCounts": [
+      3
+    ],
+    "YieldNames": [
+      "GEAR_LeatherDried"
+    ],
+    "RequiredToolNames": []
+  }
+}

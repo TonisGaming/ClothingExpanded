@@ -1,0 +1,87 @@
+{
+  "ModClothingComponent": {
+    "DisplayNameLocalizationId": "GAMEPLAY_CombatToolbelt",
+    "DescriptionLocalizatonId": "GAMEPLAY_CombatToolbeltD",
+    "InventoryActionLocalizationId": "",
+    "WeightKG": 0.95,
+    "DaysToDecay": 1500,
+    "MaxHP": 150.0,
+    "InitialCondition": "Perfect",
+    "InventoryCategory": "Auto",
+    "PickUpAudio": "Play_SndInvClothStiff",
+    "PutBackAudio": "Play_SndInvClothStiff",
+    "StowAudio": "Play_SndInvClothLeatherStow",
+    "WornOutAudio": "Play_ClothWornOut",
+    "InspectOnPickup": true,
+    "InspectDistance": 1.0,
+    "InspectAngles": [
+      180.0,
+      0.0,
+      90.0
+    ],
+    "InspectOffset": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "InspectScale": [
+      0.8,
+      0.8,
+      0.8
+    ],
+    "NormalModel": "combatbeltfold",
+    "InspectModel": "",
+    "Region": "Legs",
+    "MinLayer": "Top",
+    "MaxLayer": "Top2",
+    "MovementSound": "SoftCloth",
+    "Footwear": "None",
+    "DaysToDecayWornOutside": 150.0,
+    "DaysToDecayWornInside": 600.0,
+    "Warmth": 2.0,
+    "WarmthWhenWet": 0.0,
+    "Windproof": 0.5,
+    "Waterproofness": 20.0,
+    "Toughness": 7.0,
+    "SprintBarReduction": 0.0,
+    "DecreaseAttackChance": 0,
+    "IncreaseFleeChance": 0,
+    "HoursToDryNearFire": 3.0,
+    "HoursToDryWithoutFire": 12.0,
+    "HoursToFreeze": 4.0,
+    "MainTexture": "CLTH_CombatToolbelt_HMM_",
+    "BlendTexture": "",
+    "DrawLayer": 16,
+    "ImplementationType": ""
+  },
+  "ModHarvestableBehaviour": {
+    "Audio": "Play_HarvestingCloth",
+    "Minutes": 45,
+    "YieldCounts": [
+      1,
+      2
+    ],
+    "YieldNames": [
+      "GEAR_Cloth",
+      "GEAR_LeatherDried"
+    ],
+    "RequiredToolNames": []
+  },
+  "ModRepairableBehaviour": {
+    "Audio": "Play_RepairingCloth",
+    "Minutes": 45,
+    "Condition": 30,
+    "RequiredTools": [
+      "GEAR_SewingKit",
+      "GEAR_HookAndLine"
+    ],
+    "MaterialNames": [
+      "GEAR_Cloth",
+      "GEAR_LeatherDried"
+    ],
+    "MaterialCounts": [
+      1,
+      1
+    ]
+  }
+}

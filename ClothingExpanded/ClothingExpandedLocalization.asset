@@ -1,0 +1,1351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db675f5799250e745af26862f49a0c43, type: 3}
+  m_Name: ClothingExpandedLocalization
+  m_EditorClassIdentifier: 
+  localizationEntries:
+  - localizationKey: GAMEPLAY_CargoToolbelt
+    languages:
+      English: Cargo Pants with a Toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_CargoToolbeltD
+    languages:
+      English: Cotton pants with reinforced areas and an added toolbelt. Will take
+        a bit of punishment.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_CombatICrampons
+    languages:
+      English: Combat Boots with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_CombatICramponsD
+    languages:
+      English: Boots designed for war zones. Too bad they weren't made for Winter.
+        Heavy-duty leather with good ankle support and crampons. Would offer fair
+        resistance to animal bites.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_CombatNCrampons
+    languages:
+      English: Combat Boots with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_CombatNCramponsD
+    languages:
+      English: Boots designed for war zones. Too bad they weren't made for Winter.
+        Heavy-duty leather with good ankle support and crampons. Would offer fair
+        resistance to animal bites.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_CombatToolbelt
+    languages:
+      English: Combat Pants with a Toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_CombatToolbeltD
+    languages:
+      English: Heavy duty military pants, with reinforced knees and a toolbelt, articulated
+        for good mobility. Designed to take a beating.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DeerskinICrampons
+    languages:
+      English: Deerskin Boots with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DeerskinICramponsD
+    languages:
+      English: Supple and tough. Allows great balance of mobility and warmth with
+        extra crampons. Also, stylish.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DeerskinNCrampons
+    languages:
+      English: Deerskin Boots with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DeerSkinNCramponsD
+    languages:
+      English: Supple and tough. Allows great balance of mobility and warmth with
+        extra crampons. Also, stylish.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DeerskinToolbelt
+    languages:
+      English: Deerskin Pants with a Toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DeerskinToolbeltD
+    languages:
+      English: Warm, supple, and tough. Offers a great combination of mobility, warmth
+        and utility with an added toolbelt. Wear these to feel like the Mad Max of
+        the North.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DressingICrampons
+    languages:
+      English: Leather Shoes with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DressingICramponsD
+    languages:
+      English: Simple leather shoes with crampons that look good on Bay Street but
+        will probably get you killed out here. Hope you have some warm socks!
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DressingNCrampons
+    languages:
+      English: Leather Shoes with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_DressingNCramponsD
+    languages:
+      English: Simple leather shoes with crampons that look good on Bay Street but
+        will probably get you killed out here. Hope you have some warm socks!
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_InsulatedICrampons
+    languages:
+      English: Insulated Boots with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_InsulatedICramponsD
+    languages:
+      English: Highly waterproof boots made of synthetic materials with added crampons.
+        The felt inner liner keeps your feet nice and warm. Their bulk will slow
+        you down.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_InsulatedNCrampons
+    languages:
+      English: Insulated Boots with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_InsulatedNCramponsD
+    languages:
+      English: Highly waterproof boots made of synthetic materials with added crampons.
+        The felt inner liner keeps your feet nice and warm. Their bulk will slow
+        you down.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_InsulatedToolbelt
+    languages:
+      English: Snow Pants with a Toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_InsulatedToolbeltD
+    languages:
+      English: Insulated pants with a nylon windproof layer and an added toolbelt.
+        Designed for spending a day in the snow without getting too wet!
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_JeansToolbelt
+    languages:
+      English: Jeans with a Toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_JeansToolbeltD
+    languages:
+      English: Basic denim jeans with a toolbelt. Better than nothing.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MinerToolbelt
+    languages:
+      English: Miner's Pants with a Toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MinerToolbeltD
+    languages:
+      English: Tough, durable pants with excellent physical protection and a toolbelt
+        for functionality. Function, not fashion.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MuklukICrampons
+    languages:
+      English: Mukluks with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MuklukICramponsD
+    languages:
+      English: Manufactured boot inspired by the traditional hunter's footwear. Designed
+        for mobility and warmth using leather and fur with extra added crampons for
+        climbing. You can stay warm and move quickly.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MuklukNCrampons
+    languages:
+      English: Mukluks with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MuklukNCramponsD
+    languages:
+      English: Manufactured boot inspired by the traditional hunter's footwear. Designed
+        for mobility and warmth using leather and fur with extra added crampons for
+        climbing. You can stay warm and move quickly.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_RunningICrampons
+    languages:
+      English: Running Shoes with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_RunningICramponsD
+    languages:
+      English: Light nylon shoes designed to feel weightless with added crampons
+        for climbing. Better than running around barefoot but ... not much.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_RunningNCrampons
+    languages:
+      English: Running Shoes with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_RunningNCramponsD
+    languages:
+      English: Light nylon shoes designed to feel weightless with added crampons
+        for climbing. Better than running around barefoot but ... not much.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_SkiICrampons
+    languages:
+      English: Ski Boots with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_SkiICramponsD
+    languages:
+      English: Hard plastic boots with high-tech synthetic insulation with extra
+        crampons. Will keep your feet very warm at the expense of mobility.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_SkiNCrampons
+    languages:
+      English: Ski Boots with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_SkiNCramponsD
+    languages:
+      English: Hard plastic boots with high-tech synthetic insulation with extra
+        crampons. Will keep your feet very warm at the expense of mobility.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TrailICrampons
+    languages:
+      English: Trail Boots with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TrailICramponsD
+    languages:
+      English: Rugged leather hiking boot with added crampons for extra traction.
+        Designed to last for long-distance journeys on rocky terrain. Leather upper
+        and heavy rubber sole.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TrailNCrampons
+    languages:
+      English: Trail Boots with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TrailNCramponsD
+    languages:
+      English: Rugged leather hiking boot with added crampons for extra traction.
+        Designed to last for long-distance journeys on rocky terrain. Leather upper
+        and heavy rubber sole.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_WorkICrampons
+    languages:
+      English: Work Boots with Improvised Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_WorkICramponsD
+    languages:
+      English: Steel-toed work boots with added crampons. The kind you'd find on
+        a construction site. Tough but not warm.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_WorkNCrampons
+    languages:
+      English: Work Boots with Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_WorkNCramponsD
+    languages:
+      English: Steel-toed work boots with added crampons. The kind you'd find on
+        a construction site. Tough but not warm.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_WorkToolbelt
+    languages:
+      English: Work Pants with a Toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_WorkToolbeltD
+    languages:
+      English: A heavier duty type of jean, with some reinforced patches and a toolbelt
+        for easy access to tools. Worn by construction workers the world round.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_NoCrampons
+    languages:
+      English: You are missing crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_NoBelt
+    languages:
+      English: You are missing a toolbelt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_AttachingProgressBar
+    languages:
+      English: Attaching...
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_DetachingProgressBar
+    languages:
+      English: Detaching...
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_AttachBeltLabel
+    languages:
+      English: Attach Belt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_DetachBeltLabel
+    languages:
+      English: Detach Belt
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_AttachCramponsLabel
+    languages:
+      English: Attach Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_DetachCramponsLabel
+    languages:
+      English: Detach Crampons
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MooseBagPlusScabbard
+    languages:
+      English: Moose-Hide Satchel with a Rifle Scabbard
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_MooseBagPlusScabbardD
+    languages:
+      English: A simple Moose-hide satchel with a leather rifle scabbard. Lightens
+        the load for a weary traveller.
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_AttachScabbardLabel
+    languages:
+      English: Attach Scabbard
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
+  - localizationKey: GAMEPLAY_TB_DetachScabbardLabel
+    languages:
+      English: Detach Scabbard
+      German: 
+      Russian: 
+      French: 
+      Japanese: 
+      Korean: 
+      SimplifiedChinese: 
+      Swedish: 
+      TraditionalChinese: 
+      Turkish: 
+      Norwegian: 
+      Spanish: 
+      PortuguesePortugal: 
+      PortugueseBrazil: 
+      Dutch: 
+      Finnish: 
+      Italian: 
+      Polish: 
+      Ukrainian: 
