@@ -15,7 +15,7 @@
     "InspectOnPickup": true,
     "InspectDistance": 1.0,
     "InspectAngles": [
-      105.0,
+      0.0,
       180.0,
       0.0
     ],
@@ -25,9 +25,9 @@
       0.0
     ],
     "InspectScale": [
-      0.8,
-      0.8,
-      0.8
+      0.6,
+      0.6,
+      0.6
     ],
     "NormalModel": "cargobeltfold",
     "InspectModel": "cargobeltunfold",

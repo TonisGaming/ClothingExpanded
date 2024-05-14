@@ -34,7 +34,7 @@
     "Region": "Feet",
     "MinLayer": "Top",
     "MaxLayer": "Top",
-    "MovementSound": "LeatherHide",
+    "MovementSound": "None",
     "Footwear": "Deerskin",
     "DaysToDecayWornOutside": 300.0,
     "DaysToDecayWornInside": 3000.0,

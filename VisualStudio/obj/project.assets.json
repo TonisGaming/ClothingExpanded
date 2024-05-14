@@ -4899,11 +4899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tonis\\Desktop\\TLDMod\\Toolbelts+\\code\\VisualStudioCopyWithCrampons\\Toolbelts+.csproj",
+      "projectUniqueName": "C:\\Users\\tonis\\Desktop\\TLDMod\\Toolbelts+\\code\\VisualStudio\\Toolbelts+.csproj",
       "projectName": "Toolbelts+",
-      "projectPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\Toolbelts+\\code\\VisualStudioCopyWithCrampons\\Toolbelts+.csproj",
+      "projectPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\Toolbelts+\\code\\VisualStudio\\Toolbelts+.csproj",
       "packagesPath": "C:\\Users\\tonis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\Toolbelts+\\code\\VisualStudioCopyWithCrampons\\obj\\",
+      "outputPath": "C:\\Users\\tonis\\Desktop\\TLDMod\\Toolbelts+\\code\\VisualStudio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tonis\\AppData\\Roaming\\NuGet\\NuGet.Config",

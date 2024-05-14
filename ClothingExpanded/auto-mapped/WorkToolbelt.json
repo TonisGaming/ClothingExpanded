@@ -15,8 +15,8 @@
     "InspectOnPickup": true,
     "InspectDistance": 1.0,
     "InspectAngles": [
+      0.0,
       180.0,
-      90.0,
       0.0
     ],
     "InspectOffset": [
@@ -25,12 +25,12 @@
       0.0
     ],
     "InspectScale": [
-      0.8,
-      0.8,
-      0.8
+      0.6,
+      0.6,
+      0.6
     ],
-    "NormalModel": "",
-    "InspectModel": "",
+    "NormalModel": "workbeltfold",
+    "InspectModel": "workbeltunfold",
     "Region": "Legs",
     "MinLayer": "Top",
     "MaxLayer": "Top2",

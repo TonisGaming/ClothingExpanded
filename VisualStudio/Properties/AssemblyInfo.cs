@@ -18,5 +18,5 @@ internal static class BuildInfo
 	internal const string ModName = "Clothing Expanded";
 	internal const string ModAuthor = "TonisGaming";
 
-	internal const string ModVersion = "1.0.0";
+	internal const string ModVersion = "1.0.1";
 }

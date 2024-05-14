@@ -91,6 +91,8 @@ namespace ModNamespace
                 string gear28i = "SkiICrampons";
                 string gear29 = "TrailNCrampons";
                 string gear29i = "TrailICrampons";
+                string gear31 = "ChemicalNCrampons";
+                string gear31i = "ChemicalICrampons";
 
                 string gear30 = "MooseBagPlusScabbard";
 
@@ -351,6 +353,26 @@ namespace ModNamespace
 
                 gear = GearItem.LoadGearItemPrefab("GEAR_" + gear29i).gameObject;
                 itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear29i);
+
+                gear.AddComponent<ClimbingBuff>();
+                gear.GetComponent<ClimbingBuff>().m_SprainModifier = Icramponssprain;
+                gear.GetComponent<ClimbingBuff>().m_SprainRollOddsModifier = Icramponssprainroll;
+                gear.GetComponent<ClimbingBuff>().m_StaminaModifier = Icramponsstamina;
+                gear.GetComponent<ClimbingBuff>().m_StaminaPerSecondModifier = Icramponsstaminasec;
+                gear.GetComponent<ClimbingBuff>().m_WeakIceTimeSecondsModifier = Icramponsice;
+
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear31).gameObject;
+                itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear31);
+
+                gear.AddComponent<ClimbingBuff>();
+                gear.GetComponent<ClimbingBuff>().m_SprainModifier = cramponssprain;
+                gear.GetComponent<ClimbingBuff>().m_SprainRollOddsModifier = cramponssprainroll;
+                gear.GetComponent<ClimbingBuff>().m_StaminaModifier = cramponsstamina;
+                gear.GetComponent<ClimbingBuff>().m_StaminaPerSecondModifier = cramponsstaminasec;
+                gear.GetComponent<ClimbingBuff>().m_WeakIceTimeSecondsModifier = cramponsice;
+
+                gear = GearItem.LoadGearItemPrefab("GEAR_" + gear31i).gameObject;
+                itemGear = GearItem.LoadGearItemPrefab("GEAR_" + gear31i);
 
                 gear.AddComponent<ClimbingBuff>();
                 gear.GetComponent<ClimbingBuff>().m_SprainModifier = Icramponssprain;

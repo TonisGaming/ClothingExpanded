@@ -76,6 +76,10 @@ namespace Toolbelts
         public static GearItem runningBootsCramp = Addressables.LoadAssetAsync<GameObject>("GEAR_RunningNCrampons").WaitForCompletion().GetComponent<GearItem>();
         public static GearItem runningBootsImprov = Addressables.LoadAssetAsync<GameObject>("GEAR_RunningICrampons").WaitForCompletion().GetComponent<GearItem>();
 
+        public static GearItem chemicalBoots = Addressables.LoadAssetAsync<GameObject>("GEAR_MinersBoots").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem chemicalBootsCramp = Addressables.LoadAssetAsync<GameObject>("GEAR_ChemicalNCrampons").WaitForCompletion().GetComponent<GearItem>();
+        public static GearItem chemicalBootsImprov = Addressables.LoadAssetAsync<GameObject>("GEAR_ChemicalICrampons").WaitForCompletion().GetComponent<GearItem>();
+
         public static GameObject GetPlayer()
         {
             return GameManager.GetPlayerObject();
@@ -93,7 +97,7 @@ namespace Toolbelts
 
         public static bool IsBoots(string gearItemName)
         {
-            string[] boots = { "GEAR_WorkBoots" , "GEAR_InsulatedBoots" , "GEAR_BasicBoots" , "GEAR_DeerSkinBoots" , "GEAR_SkiBoots" , "GEAR_CombatBoots" , "GEAR_LeatherShoes" , "GEAR_MuklukBoots" , "GEAR_BasicShoes" };
+            string[] boots = { "GEAR_WorkBoots" , "GEAR_InsulatedBoots" , "GEAR_BasicBoots" , "GEAR_DeerSkinBoots" , "GEAR_SkiBoots" , "GEAR_CombatBoots" , "GEAR_LeatherShoes" , "GEAR_MuklukBoots" , "GEAR_BasicShoes" , "GEAR_MinersBoots" };
             for (int i = 0; i < boots.Length; i++)
             {
                 if (gearItemName == boots[i]) return true;
@@ -113,7 +117,7 @@ namespace Toolbelts
 
         public static bool IsBootsCrampons(string gearItemName)
         {
-            string[] bootsCramp = { "GEAR_WorkNCrampons" , "GEAR_WorkICrampons", "GEAR_InsulatedNCrampons", "GEAR_InsulatedICrampons" , "GEAR_TrailNCrampons", "GEAR_TrailICrampons" , "GEAR_DeerskinNCrampons", "GEAR_DeerskinICrampons" , "GEAR_SkiNCrampons", "GEAR_SkiICrampons" , "GEAR_CombatNCrampons", "GEAR_CombatICrampons" , "GEAR_DressingNCrampons", "GEAR_DressingICrampons" , "GEAR_MuklukNCrampons", "GEAR_MuklukICrampons" , "GEAR_RunningNCrampons", "GEAR_RunningICrampons" };
+            string[] bootsCramp = { "GEAR_WorkNCrampons" , "GEAR_WorkICrampons", "GEAR_InsulatedNCrampons", "GEAR_InsulatedICrampons" , "GEAR_TrailNCrampons", "GEAR_TrailICrampons" , "GEAR_DeerskinNCrampons", "GEAR_DeerskinICrampons" , "GEAR_SkiNCrampons", "GEAR_SkiICrampons" , "GEAR_CombatNCrampons", "GEAR_CombatICrampons" , "GEAR_DressingNCrampons", "GEAR_DressingICrampons" , "GEAR_MuklukNCrampons", "GEAR_MuklukICrampons" , "GEAR_RunningNCrampons", "GEAR_RunningICrampons" , "GEAR_ChemicalNCrampons" , "GEAR_ChemicalICrampons" };
             for (int i = 0; i < bootsCramp.Length; i++)
             {
                 if (gearItemName == bootsCramp[i]) return true;

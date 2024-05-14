@@ -147,7 +147,7 @@ namespace Toolbelts
                 GameAudioManager.PlayGUIError();
                 return;
             }
-            if (thisGearItem.name == "GEAR_WorkBoots" || thisGearItem.name == "GEAR_BasicBoots" || thisGearItem.name == "GEAR_CombatBoots" || thisGearItem.name == "GEAR_InsulatedBoots" || thisGearItem.name == "GEAR_BasicShoes" || thisGearItem.name == "GEAR_SkiBoots" || thisGearItem.name == "GEAR_LeatherShoes" || thisGearItem.name == "GEAR_DeerSkinBoots" || thisGearItem.name == "GEAR_MuklukBoots")
+            if (thisGearItem.name == "GEAR_WorkBoots" || thisGearItem.name == "GEAR_BasicBoots" || thisGearItem.name == "GEAR_CombatBoots" || thisGearItem.name == "GEAR_InsulatedBoots" || thisGearItem.name == "GEAR_BasicShoes" || thisGearItem.name == "GEAR_SkiBoots" || thisGearItem.name == "GEAR_LeatherShoes" || thisGearItem.name == "GEAR_DeerSkinBoots" || thisGearItem.name == "GEAR_MuklukBoots" || thisGearItem.name == "GEAR_MinersBoots")
             {
                 cramponName = thisGearItem.name;
                 if (crampon)
@@ -266,6 +266,16 @@ namespace Toolbelts
 
                 GameManager.GetInventoryComponent().RemoveGearFromInventory(pants.name, 1);
             }
+            else if (cramponName.ToLowerInvariant().Contains("minersboots"))
+            {
+                pants = GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBoots, 1);
+
+                GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(ToolbeltsUtils.chemicalBootsCramp, 1);
+
+                GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBootsCramp, 1).m_CurrentHP = pants.m_CurrentHP;
+
+                GameManager.GetInventoryComponent().RemoveGearFromInventory(pants.name, 1);
+            }
 
         }
 
@@ -363,6 +373,16 @@ namespace Toolbelts
 
                 GameManager.GetInventoryComponent().RemoveGearFromInventory(pants.name, 1);
             }
+            else if (cramponName.ToLowerInvariant().Contains("minersboots"))
+            {
+                pants = GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBoots, 1);
+
+                GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(ToolbeltsUtils.chemicalBootsImprov, 1);
+
+                GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBootsImprov, 1).m_CurrentHP = pants.m_CurrentHP;
+
+                GameManager.GetInventoryComponent().RemoveGearFromInventory(pants.name, 1);
+            }
         }
 
         private static void OnDetachCrampons()
@@ -373,7 +393,7 @@ namespace Toolbelts
 
             if (thisGearItem == null) return;
 
-            if (thisGearItem.name == "GEAR_WorkNCrampons" || thisGearItem.name == "GEAR_CombatNCrampons" || thisGearItem.name == "GEAR_DeerskinNCrampons" || thisGearItem.name == "GEAR_InsulatedNCrampons" || thisGearItem.name == "GEAR_DressingNCrampons" || thisGearItem.name == "GEAR_MuklukNCrampons" || thisGearItem.name == "GEAR_RunningNCrampons" || thisGearItem.name == "GEAR_SkiNCrampons" || thisGearItem.name == "GEAR_TrailNCrampons")
+            if (thisGearItem.name == "GEAR_WorkNCrampons" || thisGearItem.name == "GEAR_CombatNCrampons" || thisGearItem.name == "GEAR_DeerskinNCrampons" || thisGearItem.name == "GEAR_InsulatedNCrampons" || thisGearItem.name == "GEAR_DressingNCrampons" || thisGearItem.name == "GEAR_MuklukNCrampons" || thisGearItem.name == "GEAR_RunningNCrampons" || thisGearItem.name == "GEAR_SkiNCrampons" || thisGearItem.name == "GEAR_TrailNCrampons" || thisGearItem.name == "GEAR_ChemicalNCrampons")
             {
                 bootsName = thisGearItem.name;
                     GameAudioManager.PlayGuiConfirm();
@@ -381,7 +401,7 @@ namespace Toolbelts
                                     "PLAY_CRACCESSORIES_LEATHERBELT_UNQUIP", null, false, true, new System.Action<bool, bool, float>(OnDetachCramponsFinished));
                     GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(ToolbeltsUtils.crampons, 1);
             }
-            else if (thisGearItem.name == "GEAR_WorkICrampons" || thisGearItem.name == "GEAR_CombatICrampons" || thisGearItem.name == "GEAR_DeerskinICrampons" || thisGearItem.name == "GEAR_InsulatedICrampons" || thisGearItem.name == "GEAR_DressingICrampons" || thisGearItem.name == "GEAR_MuklukICrampons" || thisGearItem.name == "GEAR_RunningICrampons" || thisGearItem.name == "GEAR_SkiICrampons" || thisGearItem.name == "GEAR_TrailICrampons")
+            else if (thisGearItem.name == "GEAR_WorkICrampons" || thisGearItem.name == "GEAR_CombatICrampons" || thisGearItem.name == "GEAR_DeerskinICrampons" || thisGearItem.name == "GEAR_InsulatedICrampons" || thisGearItem.name == "GEAR_DressingICrampons" || thisGearItem.name == "GEAR_MuklukICrampons" || thisGearItem.name == "GEAR_RunningICrampons" || thisGearItem.name == "GEAR_SkiICrampons" || thisGearItem.name == "GEAR_TrailICrampons" || thisGearItem.name == "GEAR_ChemicalICrampons")
             {
                 bootsName = thisGearItem.name;
                 GameAudioManager.PlayGuiConfirm();
@@ -572,6 +592,26 @@ namespace Toolbelts
                 GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(ToolbeltsUtils.trailBoots, 1);
 
                 GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.trailBoots, 1).m_CurrentHP = pants.m_CurrentHP;
+
+                GameManager.GetInventoryComponent().RemoveGearFromInventory(pants.name, 1);
+            }
+            else if (bootsName.ToLowerInvariant().Contains("chemicalncrampons"))
+            {
+                pants = GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBootsCramp, 1);
+
+                GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(ToolbeltsUtils.chemicalBoots, 1);
+
+                GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBoots, 1).m_CurrentHP = pants.m_CurrentHP;
+
+                GameManager.GetInventoryComponent().RemoveGearFromInventory(pants.name, 1);
+            }
+            else if (bootsName.ToLowerInvariant().Contains("chemicalicrampons"))
+            {
+                pants = GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBootsImprov, 1);
+
+                GameManager.GetPlayerManagerComponent().InstantiateItemInPlayerInventory(ToolbeltsUtils.chemicalBoots, 1);
+
+                GameManager.GetInventoryComponent().GearInInventory(ToolbeltsUtils.chemicalBoots, 1).m_CurrentHP = pants.m_CurrentHP;
 
                 GameManager.GetInventoryComponent().RemoveGearFromInventory(pants.name, 1);
             }

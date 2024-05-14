@@ -49,7 +49,7 @@
     "HoursToDryNearFire": 4.0,
     "HoursToDryWithoutFire": 12.0,
     "HoursToFreeze": 6.0,
-    "MainTexture": "CLTH_DressingICrampons_HMM_",
+    "MainTexture": "CLTH_DressingNCrampons_HMM_",
     "BlendTexture": "",
     "DrawLayer": 13,
     "ImplementationType": ""

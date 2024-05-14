@@ -15,9 +15,9 @@
     "InspectOnPickup": true,
     "InspectDistance": 1.0,
     "InspectAngles": [
-      180.0,
       0.0,
-      90.0
+      180.0,
+      0.0
     ],
     "InspectOffset": [
       0.0,
@@ -25,12 +25,12 @@
       0.0
     ],
     "InspectScale": [
-      0.8,
-      0.8,
-      0.8
+      0.6,
+      0.6,
+      0.6
     ],
-    "NormalModel": "",
-    "InspectModel": "",
+    "NormalModel": "deerbeltfold",
+    "InspectModel": "deerbeltunfold",
     "Region": "Legs",
     "MinLayer": "Top",
     "MaxLayer": "Top2",
