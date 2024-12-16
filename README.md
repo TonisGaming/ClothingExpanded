@@ -10,6 +10,3 @@ Currently, if you were to have all of these items on, you could theoretically ha
 ## Installation
 
 * Download the latest version from releases and place the .dll and .modcomponent into the mods folder
-* If you want compatibility with Camping Tools, download LeatherworksCT.dll instead of Leatherworks.dll
-
-* Requires [Modder's Tool Box](https://github.com/Jods-Its/Modders-Gear-Toolbox/releases) and [ModComponent](https://github.com/dommrogers/ModComponent) with its dependencies
