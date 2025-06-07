@@ -14,3 +14,12 @@ C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\D
 C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\Toolbelts+.dll
 C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\refint\Toolbelts+.dll
 C:\Users\tonis\Desktop\TLDMod\Toolbelts+\code\VisualStudioCopyWithCrampons\obj\Debug\net6.0\ref\Toolbelts+.dll
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\bin\Debug\net6.0\Toolbelts+.deps.json
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\bin\Debug\net6.0\Toolbelts+.dll
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\obj\Debug\net6.0\Toolbelts+.csproj.AssemblyReference.cache
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\obj\Debug\net6.0\Toolbelts+.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\obj\Debug\net6.0\Toolbelts+.csproj.CoreCompileInputs.cache
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\obj\Debug\net6.0\Toolbelts+.sourcelink.json
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\obj\Debug\net6.0\Toolbelts+.dll
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\obj\Debug\net6.0\refint\Toolbelts+.dll
+C:\Users\tpodo\source\repos\cola98765\ClothingExpanded\VisualStudio\obj\Debug\net6.0\ref\Toolbelts+.dll
