@@ -1,3 +1,5 @@
+# This mod and any other The Long Dark mod made by me (TonisGaming) has been discontinued
+
 # ClothingExpanded
 Clothing Expanded is a mod that lets players carry more accessories, but accessorising their clothes.
 
